@@ -28,3 +28,11 @@ variable "sse_algorithm" {
   description = "The AES256 and aws:kms, server-side encryption algorithm to use"
   default     = "aws:kms"
 }
+variable "tags" {
+    type        = map
+    description = "mapping tags for the bucket."
+    default     = {
+        environment = "test"
+        terraform   = "true"
+    }
+}
