@@ -22,7 +22,12 @@
          -  terraform apply
             - Confirm resource creation
     -----
-- Steps to run the test script
-   -  CD into the s3 test directory
-    -  Run the following command
-         -  python test.py
+    - Steps to run the test script
+    -  CD into the s3 test directory
+        -  Run the following command
+            -  python test.py
+    -----
+    - Steps to run the destroy script
+    -  CD into the main directory (cd ..)
+        -  Run the following command
+            -  terraform destroy
