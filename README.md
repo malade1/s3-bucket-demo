@@ -1,3 +1,6 @@
+    Used Terraform to create S3 Bucket Modules
+    With Encryption, Tags, and Versioning
+
 - Softwares to install
    -  Install Terraform
    -  Install AWS CLI
