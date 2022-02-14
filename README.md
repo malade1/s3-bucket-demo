@@ -1,4 +1,4 @@
-    Used Terraform to create S3 Bucket Modules with Encryption, Tags, and Versioning
+    Using Terraform to create S3 Bucket Modules with Encryption, Tags, and Versioning
 
 - Softwares to install
    -  Install Terraform
